@@ -34,12 +34,15 @@ int main (){
         cout << "Umur : ";
         cin >> mhs.umur;
     }
-    cout<<endl;
-    cout << "\nNim : " << mhs.nim;
-    cout << "\nNama : "<< mhs.nama;
-    cout << "\nAlamat : " ;
-    cout << "\nDesa : " << mhs.alamat.desa;
-    cout << "\nKota : "<< mhs.alamat.kota;
-    cout << "\nUmur : " << mhs.umur; 
 
+    for (int i=0;i<3;i++)
+    {
+        cout<<endl;
+        cout << "\nNim : " << mhs.nim;
+        cout << "\nNama : "<< mhs.nama;
+        cout << "\nAlamat : " ;
+        cout << "\nDesa : " << mhs.alamat.desa;
+        cout << "\nKota : "<< mhs.alamat.kota;
+        cout << "\nUmur : " << mhs.umur; 
+    }
 }
