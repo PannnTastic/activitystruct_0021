@@ -5,10 +5,10 @@ struct mahasiswa
 {
     string nim;
     string nama;
-    astring alamat;
+    string alamat;
     string umur;
 };
 
-int msin (){
-    
+int main (){
+    mahasiswa mhs;
 }
