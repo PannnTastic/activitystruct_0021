@@ -1,6 +1,11 @@
 #include<iostream>
 using namespace std;
 
+struct detailalamat
+{
+    
+};
+
 struct mahasiswa
 {
     string nim;
@@ -22,9 +27,9 @@ int main (){
     cin >> mhs.umur;
 
     cout<<endl;
-    cout << "\n Nim : " << mhs.nim;
-    cout<< "\n Nama : "<< mhs.nama;
-    cout << "\n Alamat : " << mhs.alamat;
-    cout << "\n Umur : " << mhs.umur; 
+    cout << "\nNim : " << mhs.nim;
+    cout<< "\nNama : "<< mhs.nama;
+    cout << "\nAlamat : " << mhs.alamat;
+    cout << "\nUmur : " << mhs.umur; 
 
 }
