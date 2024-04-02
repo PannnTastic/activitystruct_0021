@@ -16,7 +16,7 @@ struct mahasiswa
 };
 
 int main (){
-    mahasiswa mhs;
+    mahasiswa mhs[3];
 
     cout<< "Nomor Mahasiswa : ";
     getline (cin , mhs.nim);
