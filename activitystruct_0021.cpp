@@ -9,3 +9,6 @@ struct mahasiswa
     string umur;
 };
 
+int msin (){
+    
+}
