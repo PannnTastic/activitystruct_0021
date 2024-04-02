@@ -3,5 +3,9 @@ using namespace std;
 
 struct mahasiswa
 {
-    
+    string nim;
+    string nama;
+    astring alamat;
+    string umur;
 };
+
