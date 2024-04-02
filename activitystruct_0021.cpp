@@ -13,6 +13,7 @@ struct mahasiswa
     string nama;
     string alamat;
     int umur;
+    detailalamat alamat;
 };
 
 int main (){
